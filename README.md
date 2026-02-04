@@ -28,14 +28,4 @@ The page features a hero section, navigation bar, call-to-action buttons, sponso
 
 ---
 
-## 📸 Preview
-
-Open the `index.html` file in any modern web browser to view the landing page.
-
----
-
-## 🧑‍💻 How to Use
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/biccas-landing-page.git
+## 📸 Live
