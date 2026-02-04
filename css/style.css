@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.hero-section {
+    background: linear-gradient(
+        135deg,
+        #d9efea 0%,
+        #ffffff 45%,
+        #ffffff 50%,
+        #ffffff 65%,
+        #dff1eb 100%
+    );
+     padding:20px 60px ;
+}
+.hero-section header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0 ;
+    margin-bottom: 40px;
+}
+.logo h1 {
+    color: rgb(32, 180, 69);
+    font-size: 22px;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.hero-section header ul {
+    display: flex;
+    list-style: none;
+
+}
+.hero-section header ul li {
+    padding: 0 20px;  
+}
+.hero-section header ul li a {
+    color: gray;
+    text-decoration: none;
+}
+.hero-section header ul li a.active {
+    color: black;
+}
+.btn {
+    display: flex;
+    gap: 20px;
+}
+.btn button {
+    background: rgb(32, 180, 69);
+    padding: 6px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+.sub-hero {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-hero h1 {
+     max-width: 400px;
+    font-size: 50px;
+}
+.sub-hero p {
+    font-size: 12px;
+     max-width: 285px;
+}
+
+.sub-hero img {
+    height: 300px;
+}
+.btn-demo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-demo button {
+    background-color:rgb(32, 180, 69) ;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    margin: 40px 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.hero-section h4 {
+    justify-self: center;
+    font-size: 28px;
+}
+.sponsors {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 20px 0;
+}
+.partners {
+    background: rgb(223, 219, 219);
+    padding: 20px 60px;
+    display: flex;
+}
+
+.support {
+    max-width: 600px;
+}
+.support h1 {
+    margin-bottom: 20px;
+}
+.rate {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.rate img {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+}
+.publish h2 {
+    margin-bottom: 10px;
+}
